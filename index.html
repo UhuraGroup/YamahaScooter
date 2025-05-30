@@ -1,0 +1,736 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Landing page</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Play:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body style="background-color: green">
+    <div id="landing_main">
+      <!-- section 01 -->
+      <div id="section_01">
+        <div id="container_nmax_banner">
+          <img
+            loading="lazy"
+            id="nmax_banner_principal"
+            src="https://scooter.incolmotos-yamaha.com.co/wp-content/uploads/2025/05/nmax-banner-principal.webp"
+            alt="nmax_banner_principal"
+          />
+        </div>
+        <div id="header_section_01">
+          <div id="header_section_01_logos_01">
+            <img
+              src="https://scooter.incolmotos-yamaha.com.co/wp-content/uploads/2025/05/logo-yamaha-1.webp"
+              alt="logo_yamaha"
+            />
+            <img
+              src="https://scooter.incolmotos-yamaha.com.co/wp-content/uploads/2025/05/logo-max.svg"
+              alt="logo_max"
+            />
+          </div>
+          <div id="header_section_01_logos_02">
+            <img
+              src="https://scooter.incolmotos-yamaha.com.co/wp-content/uploads/2025/05/otros-logos.png"
+              alt="abs_logo"
+            />
+          </div>
+        </div>
+        <div id="container_section_01">
+          <div id="title_one">Comienza una nueva historia</div>
+          <div id="title_two">NUEVA</div>
+          <div id="title_three">NMAX</div>
+        </div>
+        <div id="aside_section_03">
+          <div id="aside_section_03_logos_01">
+            <img
+              src="https://scooter.incolmotos-yamaha.com.co/wp-content/uploads/2025/05/caracteristicas-1.svg"
+              alt="155_cc"
+            />
+            <img
+              src="https://scooter.incolmotos-yamaha.com.co/wp-content/uploads/2025/05/caracteristicas-2.svg"
+              alt="8000_rpm"
+            />
+            <img
+              src="https://scooter.incolmotos-yamaha.com.co/wp-content/uploads/2025/05/caracteristicas-3.svg"
+              alt="131_kg_peso"
+            />
+          </div>
+          <div></div>
+        </div>
+        <div id="actions_section_04">
+          <a href="#section_03">Descúbrela aquí</a>
+        </div>
+      </div>
+      <!-- section 02 -->
+      <div id="section_02">
+        <img
+          id="bg_main_img_02"
+          src="./img/bg-gestor-de-imagen.webp"
+          alt="section_02_img"
+        />
+        <div id="header_section_02">
+          <div id="group_text_movimiento_section_02">
+            <div id="group_text_section_02">
+              <span class="group_text_01">NOTHING</span>
+              <span class="group_text_02"> BUT THE MAX </span>
+            </div>
+          </div>
+        </div>
+        <div id="container_section_02">
+          <span
+            >🏍️ Crea el escenario de tu próxima aventura con la nueva NMAX</span
+          >
+          <span
+            >Con base en tus elecciones, generaremos una imagen única que
+            capture la esencia de tu viaje ideal.
+            <b>Elige tu lugar, ambiente, mood y clima perfecto.</b>
+          </span>
+          <span>Deja que la inteligencia artificial haga su magia.</span>
+        </div>
+        <div id="form_ia_section_02">
+          <div id="form_section_02">
+            <form id="promptForm" autocomplete="off">
+              <label>¿Qué ambiente prefieres?</label>
+              <select name="ambiente" required>
+                <option value="">Selecciona</option>
+                <option value="rural landscape">Campo</option>
+                <option value="city landscape">Ciudad</option>
+                <option value="City buildings">Edificios</option>
+                <option value="pier on the beach">Mar</option>
+                <option value="tree road">Árboles</option>
+                <option value="urban street">Urbano</option>
+                <option value="suburban neighborhood">Residencial</option>
+              </select>
+
+              <label>¿Qué momento del día deseas?</label>
+              <select name="estilo" required>
+                <option value="">Selecciona</option>
+                <option value="at sunrise">Amanecer</option>
+                <option value="at sunset">Atardecer</option>
+                <option value="in the morning">Mañana</option>
+                <option value="at night">Noche</option>
+              </select>
+
+              <label>¿Qué clima deseas?</label>
+              <select name="clima" required>
+                <option value="">Selecciona la emoción</option>
+                <option value="clear skies">Despejado</option>
+                <option value="raining">Mojado</option>
+                <option value="foggy weather">Neblina</option>
+                <option value="sunny skies">Soleado</option>
+                <option value="windy weather">Ventoso</option>
+                <option value="dense fog">Nublado</option>
+              </select>
+
+              <button type="submit">Generar Imagen</button>
+            </form>
+          </div>
+          <div id="img_ia_section_02"></div>
+        </div>
+      </div>
+      <!-- section 03 -->
+      <div id="section_03">
+        <div id="header_section_03">
+          <span
+            >No se trata solo de moverte, sino de cómo lo haces. La nueva Yamaha
+            NMAX te da el control total para disfrutar cada recorrido con el
+            máximo estilo, rendimiento y tecnología.
+            <b
+              >Diseñada para quienes buscan más en cada trayecto, su potencia y
+              diseño hacen que cualquier camino sea una experiencia única.</b
+            >
+          </span>
+          <span
+            > Ya sea en la ciudad o más allá, cada giro y cada destino se
+            sienten mejor sobre una NMAX. Porque cuando tienes lo mejor, no
+            necesitas nada más.</span
+          >
+        </div>
+        <div id="container_section_03">
+          <div id="img_container_section_03">
+            <span>Nueva Yamaha NMAX.</span>
+            <span>Nothing but the MAX.</span>
+            <img
+              src="https://scooter.incolmotos-yamaha.com.co/wp-content/uploads/2025/05/nmax_verde-1-2.webp"
+              alt="img_Section_03"
+            />
+          </div>
+          <div id="info_container_section_03">
+            <div id="info_container_text_01">
+              <img
+                src="https://uhuragroup.com/wp-content/uploads/2025/05/Precision.svg"
+                alt="icon1"
+              />
+              <div class="info_text">
+                <span> Evolución: prestigio + tecnología divertida </span>
+                <span
+                  >El NMAX destaca por ofrecer una experiencia de conducción
+                  emocionante y divertida, ideal para quienes buscan placer al
+                  manejar cada día.
+                </span>
+              </div>
+            </div>
+            <div id="info_container_text_02">
+              <img
+                src="https://uhuragroup.com/wp-content/uploads/2025/05/Diamond.svg"
+                alt="icon2"
+              />
+              <div class="info_text">
+                <span> Evolución inteligente</span>
+                <span
+                  >La nueva generación combina prestigio y tecnología divertida,
+                  manteniendo el ADN del modelo original e incorporando
+                  innovaciones para elevar la experiencia.
+                </span>
+              </div>
+            </div>
+            <div id="info_container_text_03">
+              <img
+                src="https://uhuragroup.com/wp-content/uploads/2025/05/Security.svg"
+                alt="icon3"
+              />
+              <div class="info_text">
+                <span>Conexión Y-Connect</span>
+                <span
+                  >La NMAX 2026 tiene la opción de conectarse a la aplicación
+                  Y-Connect, que permite monitorear información en tiempo real
+                  sobre el estado de la motocicleta.
+                </span>
+              </div>
+            </div>
+            <div id="info_text_button">
+              <a>Explora sus especificaciones</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- section 04 -->
+      <div id="section_04">
+        <div id="img_main_section_04">
+          <div class="hotspot-container">
+            <img
+              src="https://scooter.incolmotos-yamaha.com.co/wp-content/uploads/2025/05/imagen-nmax-atributos.webp"
+              alt="main_img_section_04"
+            />
+            <div
+              class="hotspot"
+              style="top: 15%; left: 50%"
+              onclick="toggleTooltip(event, 2)"
+            >
+              +
+            </div>
+            <div
+              class="hotspot"
+              style="top: 30%; left: 30%"
+              onclick="toggleTooltip(event, 2)"
+            >
+              +
+            </div>
+            <div
+              class="hotspot"
+              style="top: 10%; left: 60%"
+              onclick="toggleTooltip(event, 3)"
+            >
+              +
+            </div>
+            <div
+              class="hotspot"
+              style="top: 70%; left: 72%"
+              onclick="toggleTooltip(event, 4)"
+            >
+              +
+            </div>
+            <div
+              class="hotspot"
+              style="top: 80%; left: 70%"
+              onclick="toggleTooltip(event, 5)"
+            >
+              +
+            </div>
+            <div
+              class="hotspot"
+              style="top: 35%; left: 72%"
+              onclick="toggleTooltip(event, 6)"
+            >
+              +
+            </div>
+            <div
+              class="hotspot"
+              style="top: 15%; left: 40%"
+              onclick="toggleTooltip(event, 7)"
+            >
+              +
+            </div>
+            <!-- primero -->
+            <div
+              id="tooltip1"
+              class="tooltip"
+              style="top: 50%; left: 50%; transform: translate(-50%, -50%)"
+            >
+              <span class="tooltip-title">Llave Inteligente (Smart Key)</span
+              ><br /><br /><span class="tooltip-subtitulo">Tecnología:</span>
+              Permite operar el interruptor principal sin necesidad de sacar las
+              llaves del bolsillo.<br /><br /><span class="tooltip-subtitulo"
+                >Funciones:</span
+              >
+              Encendido y apagado sin llave, desbloqueo del asiento y apertura
+              del tanque de combustible.
+            </div>
+            <!-- segundo -->
+            <div
+              id="tooltip2"
+              class="tooltip"
+              style="top: 50%; left: 50%; transform: translate(-50%, -50%)"
+            >
+              <span class="tooltip-title">Baúl de almacenaje</span
+              ><br /><br /><span class="tooltip-subtitulo">Capacidad:</span>
+              Espacio bajo el asiento lo suficientemente grande como para
+              almacenar un casco integral y otros objetos personales.<br /><br /><span
+                class="tooltip-subtitulo"
+                >Beneficio:</span
+              >Comodidad adicional para el día a día con espacio de
+              almacenamiento conveniente.
+            </div>
+            <!-- tercero -->
+            <div
+              id="tooltip3"
+              class="tooltip"
+              style="top: 50%; left: 50%; transform: translate(-50%, -50%)"
+            >
+              <span class="tooltip-title">Panel LCD</span><br /><br /><span
+                class="tooltip-subtitulo"
+                >Indicadores Clave:</span
+              >
+              Velocímetro, nivel de gasolina, temperatura del motor, indicador
+              de batería, notificaciones de llamadas y mensajes, y más.
+            </div>
+            <!-- cuarto -->
+            <div
+              id="tooltip4"
+              class="tooltip"
+              style="top: 50%; left: 50%; transform: translate(-50%, -50%)"
+            >
+              <span class="tooltip-title">Sistema de Frenos ABS</span
+              ><br /><br /><span class="tooltip-subtitulo"
+                >Sistema de Frenos ABS:</span
+              >Frenos antibloqueo en las ruedas delantera y trasera para mayor
+              control durante frenadas de emergencia.<br /><br /><span
+                class="tooltip-subtitulo"
+                >Beneficio:s</span
+              >
+              Ayuda a mantener la estabilidad y control en situaciones de
+              frenado rápido.
+            </div>
+            <!-- quinto -->
+            <div
+              id="tooltip5"
+              class="tooltip"
+              style="top: 50%; left: 50%; transform: translate(-50%, -50%)"
+            >
+              <span class="tooltip-title">Suspensión</span><br /><br /><span
+                class="tooltip-subtitulo"
+                >Delantera:</span
+              >
+              Horquilla telescópica para absorción de impactos eficiente.<br /><br /><span
+                class="tooltip-subtitulo"
+                >Trasera:</span
+              >
+              Suspensión ajustable que permite adaptar el confort y la absorción
+              de impactos según las condiciones del camino.
+            </div>
+            <!-- sexto -->
+            <div
+              id="tooltip6"
+              class="tooltip"
+              style="top: 50%; left: 50%; transform: translate(-50%, -50%)"
+            >
+              <span class="tooltip-title">Iluminación LED</span
+              ><br /><br /><span class="tooltip-subtitulo">Faros LED:</span>
+              Faros delanteros y luces de stop con direccionales LED
+              integradas.<br /><br /><span class="tooltip-subtitulo"
+                >Ventajas:</span
+              >
+              Mayor durabilidad, menor consumo de energía y mejor visibilidad en
+              la vía.
+            </div>
+            <!-- septimo -->
+            <div
+              id="tooltip7"
+              class="tooltip"
+              style="top: 50%; left: 50%; transform: translate(-50%, -50%)"
+            >
+              <span class="tooltip-title">Sistema Start &amp; Stop</span
+              ><br /><br /><span class="tooltip-subtitulo">Tecnología:</span>
+              Apaga automáticamente el motor cuando la motocicleta se detiene en
+              semáforos o paradas breves.<br /><br /><span
+                class="tooltip-subtitulo"
+                >Beneficio:</span
+              >
+              Ayuda a ahorrar combustible y reducir las emisiones.
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- section 05 -->
+      <div id="section_05">
+        <div id="title_header_section_05">
+          <h3>
+            <span>Cada NMAX es una posibilidad,</span><br />
+            <span>&nbsp;</span>
+            <span id="type-target">descúbrela aquí</span>
+          </h3>
+        </div>
+        <div id="container_moto_box_section_05">
+          <div class="card">
+            <img
+              src="https://scooter.incolmotos-yamaha.com.co/wp-content/uploads/2025/05/nmax-2025-roja.webp"
+              alt="moto1"
+            />
+            <div id="name_moto_box">
+              <span> <b>NMAX CONNECTED</b></span
+              ><br />
+              <span>Modelo 2026</span>
+            </div>
+            <div id="properties_moto_box">
+              <div>
+                <span><b>Cilindraje</b></span
+                ><br />
+                <span>155 cc</span>
+              </div>
+              <div>
+                <span><b>Peso</b></span
+                ><br />
+                <span>131 kg</span>
+              </div>
+              <div>
+                <span><b>Altura</b></span
+                ><br />
+                <span>1200 mm</span>
+              </div>
+            </div>
+            <div class="content_buttom">
+              <a
+                href="https://www.incolmotos-yamaha.com.co/vehiculo/gpd155a/15956/?_gl=1*ao984u*_gcl_au*MTEwMTg1MjYzOS4xNzQ4NTQ5OTI3"
+                target="_blank"
+                >Conócela Aquí</a
+              >
+            </div>
+          </div>
+          <div class="card">
+            <img
+              src="https://scooter.incolmotos-yamaha.com.co/wp-content/uploads/2025/05/xmax-final.webp"
+              alt="moto2"
+            />
+            <div id="name_moto_box">
+              <span> <b>XMAX 300</b></span
+              ><br />
+              <span>Modelo 2025</span>
+            </div>
+            <div id="properties_moto_box">
+              <div>
+                <span><b>Cilindraje</b></span
+                ><br />
+                <span>292 cc</span>
+              </div>
+              <div>
+                <span><b>Peso</b></span
+                ><br />
+                <span>181 kg</span>
+              </div>
+              <div>
+                <span><b>Altura</b></span
+                ><br />
+                <span>1410 mm</span>
+              </div>
+            </div>
+            <div class="content_buttom">
+              <a
+                href="https://www.incolmotos-yamaha.com.co/vehiculo/xmax300/9603/?_gl=1*ao984u*_gcl_au*MTEwMTg1MjYzOS4xNzQ4NTQ5OTI3"
+                target="_blank"
+                >Conócela Aquí</a
+              >
+            </div>
+          </div>
+          <div class="card">
+            <img
+              src="https://scooter.incolmotos-yamaha.com.co/wp-content/uploads/2025/05/tmax-yamaha-e1747271247755-1024x991.webp"
+              alt="moto3"
+            />
+            <div id="name_moto_box">
+              <span> <b>TMAX TECHMAX</b></span
+              ><br />
+              <span>Modelo 2023</span>
+            </div>
+            <div id="properties_moto_box">
+              <div>
+                <span><b>Cilindraje</b></span
+                ><br />
+                <span>562 cc</span>
+              </div>
+              <div>
+                <span><b>Peso</b></span
+                ><br />
+                <span>220 kg</span>
+              </div>
+              <div>
+                <span><b>Altura</b></span
+                ><br />
+                <span>1415 mm</span>
+              </div>
+            </div>
+            <div class="content_buttom">
+              <a
+                href="https://www.incolmotos-yamaha.com.co/vehiculo/tmaxtechmax/22567/?_gl=1*1rudmgb*_gcl_au*MTEwMTg1MjYzOS4xNzQ4NTQ5OTI3"
+                target="_blank"
+                >Conócela Aquí</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- section 06 -->
+      <div id="section_06">
+        <div id="title_header_section_05">
+          <h3><span>Una evolución en cada detalle</span><br /></h3>
+        </div>
+        <div class="img-compare-container" id="container_match_section_06">
+          <img
+            src="https://scooter.incolmotos-yamaha.com.co/wp-content/uploads/2025/05/nmax-anterior.webp"
+            class="img_section_06 left-img"
+          />
+          <img
+            src="https://scooter.incolmotos-yamaha.com.co/wp-content/uploads/2025/05/compareNmaxConnected.jpg"
+            class="img_section_06 right-img"
+          />
+          <div class="divider" id="divider">
+            <div class="handle">
+              <span class="icon"><b>< ></b></span>
+            </div>
+            <div id="vertical_line"></div>
+          </div>
+        </div>
+      </div>
+      <!-- section 07 -->
+      <div id="section_07">
+        <svg
+          id="divider_section_07"
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 2600 131.1"
+          preserveAspectRatio="none"
+        >
+          <path
+            class="elementor-shape-fill"
+            d="M0 0L2600 0 2600 69.1 0 0z"
+          ></path>
+          <path
+            class="elementor-shape-fill"
+            style="opacity: 0.5"
+            d="M0 0L2600 0 2600 69.1 0 69.1z"
+          ></path>
+          <path
+            class="elementor-shape-fill"
+            style="opacity: 0.25"
+            d="M2600 0L0 0 0 130.1 2600 69.1z"
+          ></path>
+        </svg>
+        <div id="text_info_section_07">
+          <span>Comparte tu aventura NMAX 2026</span>
+          <span
+            >📸 Inspira a otros, muestra tu estilo y deja huella en el camino
+            con el hashtag #NMAX2026</span
+          >
+        </div>
+      </div>
+      <!-- section 08 -->
+      <div
+        class="taggbox"
+        style="width: 100%; height: 100%"
+        data-widget-id="2171439"
+        data-tags="false"
+      ></div>
+      <!-- section 09 -->
+      <div id="section_09">
+        <div id="text_info_section_09">
+          <span
+            >Al publicar usando el hashtag #NMAX2026, el usuario autoriza a
+            Incolmotos Yamaha, Yamaha Motor Co. y su red de distribución a usar,
+            compartir o republicar dicho contenido sin compensación.</span
+          >
+          <span>¿Qué estás esperando para vivir tu vida al MAX?</span>
+        </div>
+      </div>
+      <!-- section 10 -->
+      <div id="section_10">
+        <svg
+          id="divider_section_09"
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 2600 131.1"
+          preserveAspectRatio="none"
+        >
+          <path
+            class="elementor-shape-fill"
+            d="M0 0L2600 0 2600 69.1 0 0z"
+          ></path>
+          <path
+            class="elementor-shape-fill"
+            style="opacity: 0.5"
+            d="M0 0L2600 0 2600 69.1 0 69.1z"
+          ></path>
+          <path
+            class="elementor-shape-fill"
+            style="opacity: 0.25"
+            d="M2600 0L0 0 0 130.1 2600 69.1z"
+          ></path>
+        </svg>
+        <div id="title_section_10">
+          <span>Todo lo que hace única a la NMAX 2026</span>
+        </div>
+        <div id="acordion_section_10">
+          <div class="acordeon">
+            <input type="radio" id="toggle0" name="acordeon" checked />
+            <!-- Sección 1 -->
+            <input type="radio" id="toggle1" name="acordeon" />
+            <label for="toggle1"
+              >&nbsp;¿Qué tipo de motor tiene la NMAX 2026?
+            </label>
+            <div class="acordeon-content content1">
+              <p>
+                La Yamaha NMAX 2026 cuenta con un motor de 155 cc, 4 tiempos,
+                SOHC, con 4 válvulas y refrigeración líquida. Este motor es
+                ideal para ofrecer un balance entre potencia y eficiencia de
+                combustible.
+              </p>
+            </div>
+
+            <!-- Sección 2 -->
+            <input type="radio" id="toggle2" name="acordeon" />
+            <label for="toggle2">&nbsp;¿Qué es el sistema Blue Core? </label>
+            <div class="acordeon-content content2">
+              <p>
+                El sistema Blue Core de Yamaha optimiza la eficiencia de la
+                combustión, reduciendo las pérdidas de potencia y ayudando a
+                mejorar el rendimiento del motor, lo que resulta en una
+                conducción más eficiente y con menores emisiones contaminantes.
+              </p>
+            </div>
+            <!-- end section -->
+            <!-- Sección 3 -->
+            <input type="radio" id="toggle3" name="acordeon" />
+            <label for="toggle3"
+              >&nbsp;¿Qué es el VVA (Variable Valve Actuation)?
+            </label>
+            <div class="acordeon-content content3">
+              <p>
+                El sistema VVA permite una buena experiencia de conducción al
+                proporcionar mayor torque a bajas revoluciones y más potencia a
+                altas revoluciones. Esto se logra a través de un mecanismo que
+                ajusta la apertura de las válvulas de admisión, mejorando la
+                eficiencia de combustible y el rendimiento general.
+              </p>
+            </div>
+            <!-- end section -->
+            <!-- Sección 4 -->
+            <input type="radio" id="toggle4" name="acordeon" />
+            <label for="toggle4"
+              >&nbsp;¿Cuáles son las características de seguridad de la NMAX?
+            </label>
+            <div class="acordeon-content content4">
+              <p>
+                La NMAX 2026 incluye varias tecnologías de seguridad como el
+                Sistema de Control de Tracción (TCS) para evitar deslizamientos
+                de las ruedas en superficies resbaladizas, y frenos ABS en ambas
+                ruedas para mayor control en frenadas de emergencia.
+              </p>
+            </div>
+            <!-- end section -->
+            <!-- Sección 5 -->
+            <input type="radio" id="toggle5" name="acordeon" />
+            <label for="toggle5"
+              >&nbsp;¿Cómo funciona la llave inteligente (Smart Key)?
+            </label>
+            <div class="acordeon-content content5">
+              <p>
+                La NMAX 2026 cuenta con una llave inteligente que permite operar
+                el interruptor principal sin necesidad de tener las llaves en la
+                mano. Además, facilita el encendido del motor, desbloqueo del
+                asiento y apertura del tanque de combustible con solo acercarse
+                a la motocicleta.
+              </p>
+            </div>
+            <!-- end section -->
+            <!-- Sección 6 -->
+            <input type="radio" id="toggle6" name="acordeon" />
+            <label for="toggle6"
+              >&nbsp;¿Qué beneficios ofrece el sistema Start & Stop?
+            </label>
+            <div class="acordeon-content content6">
+              <p>
+                El sistema Start & Stop apaga automáticamente el motor cuando la
+                motocicleta se detiene, lo que ayuda a ahorrar combustible y
+                reducir las emisiones. El motor se reinicia rápidamente al girar
+                el acelerador.
+              </p>
+            </div>
+            <!-- end section -->
+            <!-- Sección 7 -->
+            <input type="radio" id="toggle7" name="acordeon" />
+            <label for="toggle7"
+              >&nbsp;¿La NMAX tiene conexión con una aplicación para smartphone?
+            </label>
+            <div class="acordeon-content content7">
+              <p>
+                Sí, la NMAX 2026 tiene la opción de conectarse a la aplicación
+                Y-Connect, que permite monitorear información en tiempo real
+                sobre el estado de la motocicleta, incluyendo nivel de batería,
+                consumo de combustible, y más.
+              </p>
+            </div>
+            <!-- end section -->
+            <!-- Sección 8 -->
+            <input type="radio" id="toggle8" />
+            <label for="toggle8"
+              >&nbsp;¿Qué tipo de iluminación tiene la NMAX?
+            </label>
+            <div class="acordeon-content">
+              <p>
+                La NMAX 2026 está equipada con luces LED en el faro, el stop y
+                las direccionales. Estas luces no solo ofrecen un diseño
+                vanguardista, sino también mayor durabilidad y eficiencia
+                energética.
+              </p>
+            </div>
+            <!-- end section -->
+          </div>
+        </div>
+        <div id="title_footer__section_10">
+          <span>¿Qué estás esperando para vivir tu vida al MAX?</span>
+        </div>
+        <div id="button_footer_section_10">
+          <a
+            href="https://www.incolmotos-yamaha.com.co/vehiculo/gpd155a/15956/"
+            target="_blank"
+            >Conócela aquí</a
+          >
+        </div>
+        <div id="button_logo_section_10">
+          <img
+            src="https://scooter.incolmotos-yamaha.com.co/wp-content/uploads/2025/05/logo-yamaha-1.webp"
+            alt="logo_section_10"
+          />
+        </div>
+      </div>
+    </div>
+    <script
+      src="https://widget.taggbox.com/embed-lite.min.js"
+      type="text/javascript"
+    ></script>
+    <script src="./index.js"></script>
+  </body>
+</html>
