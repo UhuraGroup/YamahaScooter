@@ -10,6 +10,240 @@ body {
   color: #ffffff;
 }
 
+/* 
+##########################
+Section 01 
+##########################
+*/
+
+@media (max-width: 1680px) {
+}
+@media (max-width: 1600px) {
+}
+@media (max-width: 1440px) {
+}
+@media (max-width: 1366px) {
+  #header_section_03 *:nth-child(1) {
+    width: 60% !important;
+  }
+  #header_section_03 *:nth-child(2) {
+    width: 60% !important;
+  }
+  #info_text_button {
+    margin-top: 20px !important;
+  }
+}
+@media (max-width: 1280px) {
+  #container_section_01 #title_two {
+    font-size: 150px !important;
+  }
+  #container_section_01 #title_three {
+    font-size: 150px !important;
+  }
+
+  #container_section_02 > *:nth-child(1) {
+    width: 80% !important;
+  }
+  #container_section_02 > *:nth-child(2) {
+    width: 80% !important;
+  }
+  #container_section_02 > *:nth-child(3) {
+    width: 80% !important;
+  }
+  #form_ia_section_02 {
+    width: 90% !important;
+  }
+}
+@media (max-width: 1024px) {
+  #container_section_01 #title_two {
+    margin: 0 50px !important;
+  }
+  #container_section_01 #title_three {
+    margin: 150px 50px 0 10px !important;
+  }
+  #container_section_01 #title_one {
+    margin: 0 50px !important;
+  }
+  #container_nmax_banner {
+    width: 60% !important;
+  }
+  #header_section_03 *:nth-child(1) {
+    width: 70% !important;
+  }
+  #header_section_03 *:nth-child(2) {
+    width: 70% !important;
+  }
+}
+@media (max-width: 1000px) {
+  #container_section_01 #title_three {
+    margin-top: 150px !important;
+  }
+  #container_section_02 > *:nth-child(1) {
+    width: 90% !important;
+    font-size: 30px !important;
+  }
+  #container_section_02 > *:nth-child(2) {
+    width: 90% !important;
+  }
+  #container_section_02 > *:nth-child(3) {
+    width: 90% !important;
+  }
+  #container_section_02 {
+    justify-content: center !important;
+  }
+  #img_ia_section_02 {
+    display: none;
+  }
+  #container_section_03 {
+    width: 100% !important;
+  }
+  #img_container_section_03 img {
+    max-width: 90% !important;
+  }
+  .info_text > *:nth-child(1) {
+    font-size: 20px !important;
+  }
+  .info_text > *:nth-child(2) {
+    font-size: 15px !important;
+  }
+  #img_container_section_03 > *:nth-child(1) {
+    font-size: 35px !important;
+  }
+  #img_container_section_03 > *:nth-child(2) {
+    font-size: 35px !important;
+  }
+  #header_section_03 *:nth-child(1) {
+    width: 80% !important;
+  }
+  #header_section_03 *:nth-child(2) {
+    width: 80% !important;
+  }
+}
+
+@media (max-width: 800px) {
+  #container_nmax_banner {
+    width: 75% !important;
+  }
+  #container_section_03 {
+    flex-direction: column !important;
+  }
+  #img_container_section_03 {
+    width: 100% !important;
+    border: none !important;
+  }
+
+  #img_container_section_03 img {
+    max-width: 40% !important;
+  }
+  #img_container_section_03 > *:nth-child(1) {
+    font-size: 30px !important;
+  }
+  #img_container_section_03 > *:nth-child(2) {
+    font-size: 30px !important;
+  }
+  #info_container_section_03 {
+    width: 100% !important;
+    border: none !important;
+  }
+  .info_text > *:nth-child(1){
+    margin: 0 !important;
+    font-size: 18px !important;
+  }
+  .info_text > *:nth-child(2){
+    margin: 0 !important;
+    font-size: 13px !important;
+  }
+}
+@media (max-width: 700px) {
+  #container_nmax_banner {
+    width: 75% !important;
+    height: 50% !important;
+    left: 50% !important;
+    top: 60% !important;
+    transform: translate(-50%, -50%) !important;
+  }
+  #container_section_01 #title_one {
+    margin: 0 50px !important;
+  }
+  #container_section_01 #title_two {
+    font-size: 80px !important;
+  }
+  #container_section_01 #title_three {
+    font-size: 80px !important;
+    margin: 0 50px !important;
+    display: flex;
+    align-items: start;
+  }
+  #header_section_01_logos_01 img {
+    width: 8rem !important;
+    height: 2.2rem !important;
+  }
+  #header_section_01_logos_02 img {
+    width: 6rem !important;
+    height: 5rem !important;
+    margin: 0 50px 0 0 !important;
+  }
+  #aside_section_03_logos_01 img {
+    width: 60px !important;
+    height: 60px !important;
+    margin: 10px 0 10px 0 !important;
+  }
+  #container_nmax_banner {
+    width: 90% !important;
+    height: 50% !important;
+    left: 60% !important;
+    top: 60% !important;
+    transform: translate(-50%, -50%) !important;
+  }
+  #header_section_03 {
+    justify-content: center !important; 
+  }
+  #header_section_03 *:nth-child(1) {
+    width: 90% !important;
+    font-size: 15px !important;
+  }
+  #header_section_03 *:nth-child(2) {
+    width: 90% !important;
+    font-size: 15px !important;
+  }
+  #container_section_03 {
+    margin-top: 20px !important;
+  }
+  #img_container_section_03 img {
+    max-width: 50% !important;
+  }
+}
+
+@media (max-width: 500px) {
+  #container_section_01 #title_one,
+  #container_section_01 #title_two,
+  #container_section_01 #title_three {
+    margin: 0 20px !important;
+  }
+  #aside_section_03_logos_01 {
+    padding-left: 20px !important;
+  }
+  #header_section_01 {
+    width: 100%;
+    margin-bottom: auto;
+    height: 20%;
+    display: flex;
+    flex-direction: row;
+  }
+  #header_section_01_logos_01 {
+    margin-left: 20px !important;
+  }
+  #header_section_01_logos_01 img {
+    width: 7rem !important;
+    height: 2.2rem !important;
+  }
+  #header_section_01_logos_02 img {
+    width: 5rem !important;
+    height: 4rem !important;
+    margin: 0 50px 0 0 !important;
+  }
+}
+
 #section_01 {
   margin: 0px;
   padding: 0px;
@@ -28,8 +262,8 @@ body {
   position: absolute;
   top: 50%;
   left: 50%;
-  height: 80%;
   transform: translate(-50%, -50%);
+  height: 80%;
   margin: 0 auto;
   display: flex;
   justify-content: center;
@@ -56,7 +290,6 @@ body {
 }
 
 #header_section_01 {
-  /* background-color: blue; */
   width: 100%;
   margin-bottom: auto;
   height: 20%;
@@ -64,7 +297,6 @@ body {
   flex-direction: row;
 }
 #header_section_01_logos_01 {
-  /* background-color: red; */
   width: 50%;
   height: 100%;
   display: flex;
@@ -81,7 +313,6 @@ body {
 #header_section_01_logos_02 {
   width: 50%;
   height: 100%;
-  /* background-color: aquamarine */
   display: flex;
   justify-content: flex-end;
   align-items: center;
@@ -170,6 +401,12 @@ body {
 #actions_section_04 a:hover {
   transform: scale(1.07); /* agranda el botón un 5% */
 }
+
+/* 
+##########################
+Section 02
+##########################
+*/
 
 #section_02 {
   margin: 0px;
